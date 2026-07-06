@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Master plant physiology for NEET: comprehensive guide on photosynthesis and respiration with exam patterns, key concepts and practice strategies.">
+    <title>Plant Physiology for NEET: Photosynthesis and Respiration Deep Dive | NEET2027</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #0C1B33;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 4px solid #E8A020;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header-meta {
+            font-size: 0.95em;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .header-meta span {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        .subject-tag {
+            display: inline-block;
+            background-color: #E8A020;
+            color: #0C1B33;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+        }
+
+        .article-intro {
+            background-color: #f0f5ff;
+            padding: 25px;
+            border-left: 4px solid #0C1B33;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        .article-intro p {
+            margin-bottom: 10px;
+            color: #0C1B33;
+            font-weight: 500;
+        }
+
+        h2 {
+            color: #0C1B33;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #E8A020;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #E8A020;
+            font-size: 1.2em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.7;
+        }
+
+        .tip-box {
+            background-color: #FFF6E0;
+            border-left: 5px solid #E8A020;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .tip-box strong {
+            color: #0C1B33;
+        }
+
+        .exam-pattern {
+            background-color: #f9f9f9;
+            border: 1px solid #E8A020;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .exam-pattern strong {
+            color: #0C1B33;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+        }
+
+        .comparison-table th {
+            background-color: #0C1B33;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .comparison-table td {
+            padding: 12px;
+            border-bottom: 1px solid #E8A020;
+        }
+
+        .comparison-table tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #0C1B33 0%, #1a2a4a 100%);
+            color: white;
+            padding: 35px;
+            border-radius: 8px;
+            margin: 40px 0;
+            text-align: center;
+            border-top: 4px solid #E8A020;
+        }
+
+        .cta-box h3 {
+            color: #E8A020;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .cta-box p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            text-align: center;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #E8A020;
+            color: #0C1B33;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .cta-button:hover {
+            background-color: #d48e1a;
+        }
+
+        .key-concepts {
+            background-color: #f0f5ff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            border-left: 4px solid #E8A020;
+        }
+
+        footer {
+            background-color: #0C1B33;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            main {
+                padding: 20px 15px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .cta-box {
+                padding: 25px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plant Physiology for NEET: Photosynthesis and Respiration Deep Dive</h1>
+        <div class="header-meta">
+            <span class="subject-tag">Biology</span>
+        </div>
+        <div class="header-meta">
+            <span>Published: July 06, 2026</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="article-intro">
+            <p><strong>Why This Topic Matters:</strong> Photosynthesis and respiration together account for 12-15% of NEET questions in the botany section. NCERT Class 11 Chapter 13 (Photosynthesis in Higher Plants) and Class 12 Chapter 14 (Respiration) are the core resources, but NEET demands understanding beyond textbook definitions—you need to grasp mechanisms, regulation, and interconnections.</p>
+        </section>
+
+        <h2>Understanding Photosynthesis: Light and Dark Reactions (NCERT Class 11, Chapter 13)</h2>
+
+        <p>Photosynthesis is the process by which plants convert light energy into chemical energy stored in glucose. For NEET, you must distinguish between the light-dependent and light-independent reactions with precision.</p>
+
+        <h3>Light Reactions (Light-Dependent Reactions)</h3>
+
+        <p>The light reactions occur in the thylakoid membrane of chloroplasts and produce ATP and NADPH. These reactions involve two photosystems:</p>
+
+        <ul>
+            <li><strong>Photosystem II (P680):</strong> Absorbs light at 680 nm, splits water molecules (photolysis) at the oxygen-evolving complex, releasing O₂, H⁺, and electrons. This is the entry point for electrons into the photosynthetic electron transport chain.</li>
+            <li><strong>Photosystem I (P700):</strong> Receives electrons from PSII through the cytochrome b6f complex, uses light energy to excite electrons to the highest energy state, which are then used to reduce NADP⁺ to NADPH via NADP⁺ reductase.</li>
+            <li><strong>Chemiosmosis:</strong> The electron transport chain pumps H⁺ ions into the thylakoid lumen, creating a proton gradient. ATP synthase uses this gradient to phosphorylate ADP to ATP—this is oxidative phosphorylation in chloroplasts.</li>
+        </ul>
+
+        <p><strong>NEET Focus:</strong> Typical questions test your knowledge of the Z-scheme (electron flow diagram), the role of plastoquinone and cytochrome b6f, and why photosystem II is called "II" despite functioning first (historical naming). The O₂ evolution occurs at PSII; O₂ is a byproduct, not essential for the plant.</p>
+
+        <h3>Calvin Cycle (Dark Reactions)</h3>
+
+        <p>The Calvin cycle (light-independent reactions) fixes CO₂ into 3-phosphoglycerate using RuBisCO enzyme, then reduces it to form glucose. The cycle has three phases:</p>
+
+        <ul>
+            <li><strong>Carbon Fixation:</strong> RuBisCO catalyzes CO₂ + RuBP (5-carbon sugar) → 2 molecules of 3-PGA (3-carbon compound). RuBisCO is the most abundant protein on Earth.</li>
+            <li><strong>Reduction Phase:</strong> 3-PGA is phosphorylated to 1,3-bisphosphoglycerate (using ATP), then reduced to G3P (glyceraldehyde-3-phosphate) using NADPH.</li>
+            <li><strong>Regeneration:</strong> Most G3P molecules are rearranged to regenerate RuBP, using ATP. One G3P exits per three CO₂ fixed.</li>
+        </ul>
+
+        <p>Each complete turn of the cycle fixes one CO₂ and requires 3 ATP and 2 NADPH. To produce one glucose requires 6 turns, consuming 18 ATP and 12 NADPH.</p>
+
+        <h3>C3 vs C4 vs CAM Photosynthesis</h3>
+
+        <p>NEET exams frequently compare these pathways:</p>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>C3 Plants</th>
+                    <th>C4 Plants</th>
+                    <th>CAM Plants</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>First Product</td>
+                    <td>3-PGA (3-carbon)</td>
+                    <td>Oxaloacetate (4-carbon)</td>
+                    <td>Malic acid (4-carbon)</td>
+                </tr>
+                <tr>
+                    <td>CO₂ Fixation Site</td>
+                    <td>Mesophyll cells</td>
+                    <td>Mesophyll; reduction in bundle sheath</td>
+                    <td>Night (stomata closed during day)</td>
+                </tr>
+                <tr>
+                    <td>Photorespiration</td>
+                    <td>High (15-25% loss)</td>
+                    <td>Minimal (1-3% loss)</td>
+                    <td>None (temporal separation)</td>
+                </tr>
+                <tr>
+                    <td>Examples</td>
+                    <td>Wheat, rice, soybean</td>
+                    <td>Maize, sugarcane, sorghum</td>
+                    <td>Pineapple, agave, cacti</td>
+                </tr>
+                <tr>
+                    <td>Efficiency</td>
+                    <td>3% (net)</td>
+                    <td>6% (net)</td>
+                    <td>3-4% (net)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="tip-box">
+            <strong>⭐ NEET Tip:</strong> Photorespiration is a common source of confusion. It occurs when RuBisCO catalyzes RuBP + O₂ instead of RuBP + CO₂ (due to high O₂ concentration in C3 plants). The resulting 2-PG is partially oxidized in peroxisomes and mitochondria, releasing CO₂ without producing ATP—it's wasteful. C4 and CAM plants evolved to minimize this waste. Expect 1-2 questions on this mechanism.
+        </div>
+
+        <h2>Cellular Respiration: Energy Release and ATP Synthesis (NCERT Class 12, Chapter 14)</h2>
+
+        <p>Respiration is the catabolic process breaking down organic molecules (primarily glucose) to release energy captured in ATP. NEET requires understanding of aerobic respiration pathways and their energetics.</p>
+
+        <h3>Glycolysis</h3>
+
+        <p>Glycolysis occurs in the cytoplasm and converts glucose (6-carbon) into 2 pyruvate (3-carbon) molecules. Key points:</p>
+
+        <ul>
+            <li>Net yield: 2 ATP and 2 NADH per glucose (substrate-level phosphorylation)</li>
+            <li>Includes a priming phase (2 ATP consumed) and energy payoff phase (4 ATP produced)</li>
+            <li>Phosphofructokinase (PFK) is the rate-limiting enzyme and is regulated by ATP, AMP, citrate, and pH</li>
+            <li>Occurs even under anaerobic conditions</li>
+        </ul>
+
+        <h3>Pyruvate Oxidation and the Citric Acid Cycle (Krebs Cycle)</h3>
+
+        <p>Before entering the Krebs cycle, pyruvate is converted to Acetyl-CoA by the pyruvate dehydrogenase complex in the mitochondrial matrix. This irreversible step links glycolysis to the cycle.</p>
+
+        <p>The Krebs cycle (8 steps) oxidizes Acetyl-CoA completely to CO₂ while generating electron carriers (NADH and FADH₂) for ATP synthesis. Per glucose (2 Acetyl-CoA):</p>
+
+        <ul>
+            <li>2 GTP (or ATP equivalents) via substrate-level phosphorylation</li>
+            <li>6 NADH (3 per turn × 2 turns)</li>
+            <li>2 FADH₂ (1 per turn × 2 turns)</li>
+            <li>4 CO₂ molecules released</li>
+        </ul>
+
+        <p><strong>Critical Cycles to Memorize:</strong> Isocitrate dehydrogenase and α-ketoglutarate dehydrogenase are key regulatory points, inhibited by high ATP/ADP and NADH/NAD⁺ ratios.</p>
+
+        <h3>Electron Transport Chain and Oxidative Phosphorylation</h3>
+
+        <p>The inner mitochondrial membrane contains the electron transport chain (ETC) with four protein complexes (I–IV). NADH and FADH
