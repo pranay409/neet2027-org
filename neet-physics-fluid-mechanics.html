@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Master Fluid Mechanics for NEET: Bernoulli's equation, viscosity, surface tension. Real exam questions, formulas, and problem-solving strategies.">
+    <title>Fluid Mechanics for NEET: Bernoulli, Viscosity and Surface Tension | NEET2027</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        header {
+            background-color: #0C1B33;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid #E8A020;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .meta-info {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+        
+        .meta-info span {
+            margin: 0 15px;
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: #E8A020;
+            color: #0C1B33;
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+        
+        main {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .tip-box {
+            background-color: #FFF6E0;
+            border-left: 5px solid #E8A020;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        
+        .tip-box strong {
+            color: #0C1B33;
+        }
+        
+        .cta-box {
+            background: linear-gradient(135deg, #0C1B33 0%, #1a2f4d 100%);
+            color: white;
+            padding: 30px;
+            margin: 40px 0;
+            border-radius: 6px;
+            border: 2px solid #E8A020;
+            text-align: center;
+        }
+        
+        .cta-box h3 {
+            margin-bottom: 15px;
+            font-size: 1.6em;
+        }
+        
+        .cta-box p {
+            margin-bottom: 20px;
+            font-size: 1.05em;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #E8A020;
+            color: #0C1B33;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #d68f15;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(232, 160, 32, 0.3);
+        }
+        
+        h2 {
+            color: #0C1B33;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #E8A020;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #0C1B33;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .formula {
+            background-color: #f0f0f0;
+            border-left: 4px solid #E8A020;
+            padding: 12px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        
+        footer {
+            background-color: #0C1B33;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        
+        .ncert-ref {
+            color: #E8A020;
+            font-weight: 600;
+        }
+        
+        strong {
+            color: #0C1B33;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fluid Mechanics for NEET: Bernoulli, Viscosity and Surface Tension</h1>
+        <div class="meta-info">
+            <span><span class="tag">Physics</span></span>
+            <span>Published: July 22, 2026</span>
+        </div>
+    </header>
+    
+    <main>
+        <p>Fluid mechanics consistently appears in NEET with 2-4 questions every year, and the topics of Bernoulli's equation, viscosity, and surface tension form the backbone of this unit. These concepts require strong conceptual clarity and practice with numerical problems that reflect actual NEET patterns. This guide focuses exclusively on what you need to master for the NEET 2027 examination.</p>
+        
+        <h2>Bernoulli's Equation: The Foundation of Fluid Dynamics</h2>
+        
+        <p><span class="ncert-ref">NCERT Class 11, Chapter 10: Mechanical Properties of Fluids</span></p>
+        
+        <p>Bernoulli's theorem states that for an ideal, incompressible, non-viscous fluid in streamline flow, the total mechanical energy per unit volume remains constant along a streamline. This principle is fundamental to understanding fluid behavior in pipes, nozzles, and aircraft wings.</p>
+        
+        <p>The mathematical expression is:</p>
+        
+        <div class="formula">
+            P + ½ρv² + ρgh = constant
+        </div>
+        
+        <p>Where P is pressure, ρ is density, v is velocity, g is gravitational acceleration, and h is height. NEET typically asks about applications like water flowing through pipes of varying diameters, calculating pressures at different points, and understanding why faster-moving fluids have lower pressure.</p>
+        
+        <h3>Key NEET Applications of Bernoulli's Equation</h3>
+        
+        <ul>
+            <li><strong>Venturi meter problems:</strong> When a fluid flows through a constricted tube, velocity increases and pressure decreases. NEET commonly asks to find the pressure difference or velocity of flow.</li>
+            <li><strong>Torricelli's theorem:</strong> The velocity of efflux from a tank equals √(2gh), which is a special case of Bernoulli's equation. Multiple choice questions often disguise this concept.</li>
+            <li><strong>Lift on aircraft wings:</strong> The curved shape creates different velocities above and below, resulting in a pressure difference that generates lift. Recent NEET papers have included this application.</li>
+            <li><strong>Water supply systems:</strong> Problems involving flow rates through pipes of different diameters, where continuity equation A₁v₁ = A₂v₂ combines with Bernoulli's equation.</li>
+        </ul>
+        
+        <div class="tip-box">
+            <strong>💡 NEET Pro Tip:</strong> Always remember that Bernoulli's equation applies only to ideal fluids (non-viscous). When viscous effects cannot be ignored, the equation fails. NEET often includes a statement about fluid type in multiple choice options—read carefully whether the fluid is real or ideal.
+        </div>
+        
+        <h2>Viscosity: Understanding Real Fluid Behavior</h2>
+        
+        <p><span class="ncert-ref">NCERT Class 11, Chapter 10: Mechanical Properties of Fluids</span></p>
+        
+        <p>Viscosity is the property of a fluid that resists relative motion between layers. Unlike ideal fluids used in Bernoulli's derivation, real fluids are viscous, and this property is essential for understanding flow through pipes, blood circulation, and oil drilling operations.</p>
+        
+        <p>Stokes' law governs the viscous drag on a sphere moving through a fluid:</p>
+        
+        <div class="formula">
+            F = 6πηrv
+        </div>
+        
+        <p>Where η (eta) is the coefficient of viscosity, r is the radius of the sphere, and v is its velocity. This formula appears in nearly 30% of NEET physics papers.</p>
+        
+        <h3>Terminal Velocity and Viscous Drag</h3>
+        
+        <p>When a sphere falls through a viscous fluid, it eventually reaches terminal velocity where the gravitational force equals the viscous drag plus buoyancy. At this point, acceleration becomes zero and velocity remains constant. NEET problems frequently ask students to derive the terminal velocity expression:</p>
+        
+        <div class="formula">
+            v_terminal = (2/9) × (r²/η) × (ρ_sphere - ρ_fluid) × g
+        </div>
+        
+        <p>This concept has appeared in numerical answer type questions requiring students to calculate the terminal velocity of ball bearings falling through oil or the rate of sedimentation in biological fluids.</p>
+        
+        <h3>Poiseuille's Formula for Flow Through Pipes</h3>
+        
+        <p>The volume of fluid flowing per unit time through a cylindrical pipe is proportional to the pressure difference and the fourth power of the radius:</p>
+        
+        <div class="formula">
+            Q = (π/8) × (ΔP/η) × r⁴
+        </div>
+        
+        <p>This inverse relationship with viscosity explains why blood pressure regulation is critical and why oil viscosity matters in industrial applications. NEET includes questions comparing flow rates at different viscosities or radii.</p>
+        
+        <div class="tip-box">
+            <strong>⚡ Critical Insight for NEET:</strong> The r⁴ dependence in Poiseuille's equation is crucial—doubling the radius increases flow by a factor of 16, not 2. Questions testing this misconception are common in NEET. Always verify unit conversions when calculating viscosity coefficients.
+        </div>
+        
+        <h2>Surface Tension: Molecular Forces at Interfaces</h2>
+        
+        <p><span class="ncert-ref">NCERT Class 11, Chapter 10: Mechanical Properties of Fluids</span></p>
+        
+        <p>Surface tension is the tendency of a liquid surface to minimize its area due to cohesive forces between molecules. This property explains why water droplets are spherical, why insects can walk on water, and why capillaries rise or fall in different liquids. NEET includes 1-2 questions annually on this topic.</p>
+        
+        <p>Surface tension (T or σ) is defined as force per unit length or energy per unit area:</p>
+        
+        <div class="formula">
+            T = F/L = Energy/Area
+        </div>
+        
+        <h3>Pressure Difference Across Curved Surfaces</h3>
+        
+        <p>A curved liquid surface creates a pressure difference described by the Young-Laplace equation. For a spherical droplet:</p>
+        
+        <div class="formula">
+            ΔP = 2T/r
+        </div>
+        
+        <p>For a soap bubble (which has two surfaces):</p>
+        
+        <div class="formula">
+            ΔP = 4T/r
+        </div>
+        
+        <p>NEET frequently asks to distinguish between droplets and bubbles, and to calculate the excess pressure inside them. A recent question required comparing the pressure inside a water droplet with the pressure inside a soap bubble of the same radius.</p>
+        
+        <h3>Capillarity and Meniscus</h3>
+        
+        <p>When a capillary tube is immersed in a liquid, capillary rise or depression occurs. The height is given by:</p>
+        
+        <div class="formula">
+            h = (2T cosθ)/(ρgr)
+        </div>
+        
+        <p>Where θ is the contact angle between the liquid and tube material. Water rises in glass (θ ≈ 0°) but falls in glass when mercury is used (θ ≈ 140°). NEET includes problems about calculating capillary heights and understanding why certain liquids wet surfaces while others do not.</p>
+        
+        <p>The ability to interpret contact angles is essential—a contact angle less than 90° indicates a wetting liquid, while greater than 90° indicates a non-wetting liquid. Questions often present data and require determination of the liquid type.</p>
+        
+        <div class="tip-box">
+            <strong>🎯 Exam Strategy:</strong> Surface tension problems often appear as assertion-reasoning questions. Master the distinction between droplet and bubble formulas, and understand the physical reason for capillary rise (adhesive vs. cohesive forces). Memorizing without understanding costs marks in these questions.
+        </div>
+        
+        <h2>Integration of Concepts: NEET Problem Patterns</h2>
+        
+        <p>Advanced NEET questions combine Bernoulli's equation, viscosity, and surface tension. For example, a question might involve water exiting a tank (Bernoulli), flowing through a narrow tube (viscosity), and forming droplets (surface tension). Understanding the sequence of physical phenomena is crucial.</p>
+        
+        <p>Recent years show that NEET examiners test:</p>
+        
+        <ul>
+            <li>Calculation of flow rates combining continuity and Bernoulli equations</li>
+            <li>Comparison of terminal velocities in different fluids</li>
+            <li>Energy loss due to viscosity in practical systems</li>
+            <li>Pressure calculations in capillary tubes with surface tension effects</li>
+            <li>Real-world applications like medical syringes, spray bottles, and hydraulic systems</li>
+        </ul>
+        
+        <p>The weightage of fluid mechanics in NEET is approximately 3-5% of the physics section, with questions distributed across single-correct choice, multiple-correct choice, assertion-reasoning, and numerical answer types.</p>
+        
+        <div class="cta-box">
+            <h3>Master Fluid Mechanics with Expert Guidance</h3>
+            <p>Struggling with Bernoulli's applications or viscosity calculations? The <strong>Padhle AIM720 batch</strong> is India's #1 NEET coaching program, offering personalized physics mastery with targeted problem sets and real exam simulations.</p>
+            <p>Get structured solutions to every fluid mechanics concept, practice with actual NEET papers, and achieve your target score.</p>
+            <a href="/best-neet-coaching-2027.html" class="cta-button">Explore Padhle AIM720 Batch</a>
+        </div>
+        
+        <p>To excel in fluid mechanics, practice 50+ numerical problems covering all three topics, solve previous NEET papers to identify patterns, and focus on conceptual understanding over rote memorization. The physics section rewards students who can visualize physical phenomena and apply multiple concepts in a single problem.</p>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 NEET2027.org | Fluid Mechanics Guide for NEET Aspirants</p>
+    </footer>
+</body>
+</html>
