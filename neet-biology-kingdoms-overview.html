@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Master Whittaker's five kingdoms classification for NEET biology. Learn kingdom characteristics, examples, and exam-high weightage topics with NCERT alignment.">
+    <title>Five Kingdoms Classification for NEET: Whittaker's System Explained | NEET2027</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #0C1B33 0%, #1a2a47 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 4px solid #E8A020;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .meta-info {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .subject-tag {
+            background-color: #E8A020;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .date-info {
+            color: #E8A020;
+            font-weight: 600;
+        }
+        
+        article {
+            background: white;
+            padding: 50px 40px;
+            margin: 40px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .intro-para {
+            font-size: 1.1em;
+            color: #0C1B33;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        
+        h2 {
+            color: #0C1B33;
+            font-size: 1.8em;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            border-left: 4px solid #E8A020;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #1a2a47;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .kingdom-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .kingdom-card {
+            background: linear-gradient(135deg, #0C1B33 0%, #1a2a47 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 3px solid #E8A020;
+        }
+        
+        .kingdom-card h4 {
+            color: #E8A020;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .kingdom-card p {
+            font-size: 0.95em;
+            line-height: 1.6;
+            text-align: left;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            border: 1px solid #ddd;
+        }
+        
+        .comparison-table th {
+            background-color: #0C1B33;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .comparison-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+        
+        .comparison-table tr:hover {
+            background-color: #FFF6E0;
+        }
+        
+        .tip-box {
+            background-color: #FFF6E0;
+            border-left: 4px solid #E8A020;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+        
+        .tip-box h4 {
+            color: #0C1B33;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .tip-box p {
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .ncert-ref {
+            color: #E8A020;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+        
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .cta-box {
+            background: linear-gradient(135deg, #E8A020 0%, #d4860a 100%);
+            color: white;
+            padding: 30px;
+            margin: 40px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .cta-box h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .cta-box p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #0C1B33;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #1a2a47;
+        }
+        
+        .exam-pattern {
+            background-color: #f0f0f0;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-left: 3px solid #E8A020;
+            border-radius: 4px;
+        }
+        
+        .exam-pattern p {
+            margin: 0;
+            font-weight: 500;
+            color: #0C1B33;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .meta-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            article {
+                padding: 30px 20px;
+            }
+            
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Five Kingdoms Classification for NEET: Whittaker's System Explained</h1>
+        <div class="meta-info">
+            <div class="meta-item">
+                <span class="subject-tag">Biology</span>
+            </div>
+            <div class="meta-item">
+                <span class="date-info">Published: July 26, 2026</span>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <article>
+            <p class="intro-para">
+                Whittaker's five kingdoms classification system is a cornerstone topic in NEET biology that appears regularly in both objective and passage-based questions. Understanding the characteristics, examples, and distinguishing features of each kingdom is essential for scoring well in the biodiversity and classification section. This comprehensive guide aligns with NCERT Chapter 2 (Biological Classification) and covers all exam-relevant patterns.
+            </p>
+            
+            <h2>Understanding Whittaker's Five Kingdoms System</h2>
+            
+            <p>
+                In 1969, R.H. Whittaker proposed the five kingdoms classification system, replacing the two-kingdom classification (Plants and Animals) used earlier. This system is based on three fundamental criteria: cell structure (prokaryotic vs. eukaryotic), mode of nutrition (autotrophic vs. heterotrophic), and the presence or absence of cell walls. The five kingdoms are: <strong>Monera, Protista, Fungi, Plantae, and Animalia</strong>.
+            </p>
+            
+            <p>
+                <span class="ncert-ref">NCERT Alignment:</span> This classification system is covered comprehensively in Class XI Biology Chapter 2. NEET consistently tests the distinguishing characteristics of each kingdom through 1-2 questions annually, often in combination with other classification systems.
+            </p>
+            
+            <div class="kingdom-grid">
+                <div class="kingdom-card">
+                    <h4>Monera</h4>
+                    <p><strong>Prokaryotic, single-celled, mostly unicellular.</strong> No membrane-bound organelles. Includes bacteria and cyanobacteria.</p>
+                </div>
+                <div class="kingdom-card">
+                    <h4>Protista</h4>
+                    <p><strong>Eukaryotic, primarily unicellular.</strong> Includes algae, protozoa, and slime moulds. Highly variable characteristics.</p>
+                </div>
+                <div class="kingdom-card">
+                    <h4>Fungi</h4>
+                    <p><strong>Eukaryotic, heterotrophic, with chitin cell walls.</strong> Saprophytic or parasitic. Includes mushrooms, yeasts, moulds.</p>
+                </div>
+                <div class="kingdom-card">
+                    <h4>Plantae</h4>
+                    <p><strong>Eukaryotic, autotrophic, with cellulose cell walls.</strong> Chloroplast-containing. Multicellular (mostly).</p>
+                </div>
+                <div class="kingdom-card">
+                    <h4>Animalia</h4>
+                    <p><strong>Eukaryotic, heterotrophic, no cell walls.</strong> Multicellular, with specialized tissues and organs.</p>
+                </div>
+            </div>
+            
+            <h2>Detailed Characteristics and NEET Exam Patterns</h2>
+            
+            <h3>Kingdom Monera: Prokaryotic Organisms</h3>
+            
+            <p>
+                Monera consists entirely of prokaryotic organisms lacking membrane-bound nuclei and organelles. This kingdom includes bacteria (both photosynthetic and non-photosynthetic) and cyanobacteria (photosynthetic). NEET frequently asks about the structural differences between prokaryotes and eukaryotes in the context of Monera classification.
+            </p>
+            
+            <ul>
+                <li><strong>Cell Structure:</strong> Prokaryotic with no true nucleus; genetic material in nucleoid region</li>
+                <li><strong>Size Range:</strong> 0.5-5 micrometers (extremely small)</li>
+                <li><strong>Ribosomes:</strong> 70S type, smaller than eukaryotic ribosomes</li>
+                <li><strong>Cell Wall:</strong> Present, made of peptidoglycan (not cellulose or chitin)</li>
+                <li><strong>Common Examples:</strong> E. coli, Bacillus, Streptococcus, Nostoc, Oscillatoria</li>
+            </ul>
+            
+            <div class="exam-pattern">
+                <p><strong>Exam Pattern:</strong> NEET often presents scenarios asking to identify organisms lacking membrane-bound organelles or asking about cyanobacterial characteristics. Expect 1-2 direct questions and 2-3 indirect questions in passage-based formats.</p>
+            </div>
+            
+            <h3>Kingdom Protista: The Bridge Kingdom</h3>
+            
+            <p>
+                Protista is the most heterogeneous kingdom, containing eukaryotic organisms that don't fit neatly into other categories. It serves as an evolutionary bridge between single-celled and multicellular organisms. NEET emphasizes the diversity of nutrition modes and locomotion types within this kingdom.
+            </p>
+            
+            <ul>
+                <li><strong>Cell Structure:</strong> Eukaryotic, mostly unicellular but some colonial</li>
+                <li><strong>Nutrition Modes:</strong> Autotrophic (algae), heterotrophic (protozoa), or both (mixotrophic)</li>
+                <li><strong>Movement:</strong> Flagella, cilia, or pseudopodia in motile forms</li>
+                <li><strong>Common Examples:</strong> Amoeba, Paramecium, Euglena, Chlamydomonas, Plasmodium</li>
+                <li><strong>Special Note:</strong> Slime moulds are included despite their unusual characteristics</li>
+            </ul>
+            
+            <div class="tip-box">
+                <h4>⭐ NEET High-Yield Tip</h4>
+                <p>Protista contains organisms with varying characteristics—remember that <strong>Euglena is both autotrophic and heterotrophic</strong> depending on light availability. Questions often test whether students understand that Protista members don't fit neatly into "plant-like" or "animal-like" categories.</p>
+                <p><strong>Expected Weightage:</strong> 1-2 direct questions per NEET paper, especially about locomotion types and nutrition modes.</p>
+            </div>
+            
+            <h3>Kingdom Fungi: The Decomposers</h3>
+            
+            <p>
+                Fungi are eukaryotic, heterotrophic organisms with chitin-containing cell walls. They are crucial decomposers in ecosystems. NEET tests fungal characteristics extensively, particularly distinguishing them from plants (which have cellulose walls) and their role as saprophytes.
+            </p>
+            
+            <ul>
+                <li><strong>Cell Wall:</strong> Made of chitin (not cellulose) - this is the KEY distinguishing feature</li>
+                <li><strong>Nutrition:</strong> Heterotrophic, mostly saprophytic (absorptive heterotrophs)</li>
+                <li><strong>Storage Carbohydrate:</strong> Glycogen, not starch (unlike plants)</li>
+                <li><strong>Body Structure:</strong> Hyphae form mycelium; fungal filaments lack cell wall membranes between cells</li>
+                <li><strong>Common Examples:</strong> Mucor, Rhizopus, Aspergillus, Saccharomyces, Agaricus</li>
+            </ul>
+            
+            <p>
+                <span class="ncert-ref">NCERT Coverage:</span> Chapter 2 emphasizes that fungi are NOT plants despite historical misclassification. The presence of chitin and absence of chloroplasts are critical distinguishing features.
+            </p>
+            
+            <h2>Kingdoms Plantae and Animalia: Multicellular Eukaryotes</h2>
+            
+            <h3>Kingdom Plantae
